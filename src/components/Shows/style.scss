@@ -1,0 +1,11 @@
+.show_list_container{
+    margin: auto;
+    height: 86%;
+    overflow: auto;
+    width: 80%;
+    justify-content: center;
+
+    @media screen and (max-width: 601px) {
+        width: 100%;
+    }
+}
